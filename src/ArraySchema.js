@@ -9,3 +9,4 @@ export default class ArraySchema{
         return new ArraySchema([...this.rules, (el)=>el.length == len])
     }
 }
+//test
